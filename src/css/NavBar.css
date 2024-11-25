@@ -1,0 +1,94 @@
+.navBarContainer {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  max-width: 1920px;
+}
+
+.navBarBody {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  column-gap: 0.2vw;
+  justify-content: space-between;
+  font-family: var(--font-family-base);
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  line-height: 1;
+}
+
+.navBarMenuList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBarMenuItem {
+  padding: 45px 34px;
+}
+
+.navBarMenuItem.isCurrent {
+  position: relative;
+}
+
+.navBarMenuItem.isCurrent::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-orange-alternative);
+}
+
+.navBarSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 140px;
+  height: 100px;
+  column-gap: 26px;
+}
+
+.navBarOptionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5px;
+  width: 49px;
+  aspect-ratio: 1;
+  border-radius: var(--border);
+  background-color: var(--color-light-orange);
+}
+
+.navBarOptionButtonLine {
+  width: 21px;
+  height: 1px;
+  background-color: var(--color-blue-alternative);
+}
+
+.navBarSearchButton {
+  color: var(--color-blue-alternative);
+}
+
+.navBarLogo {
+  flex-shrink: 0;
+}
+
+.navBarMenu {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1056px) {
+  .navBarMenu {
+    flex-basis: 100%;
+    order: 1;
+  }
+
+  .navBarBody {
+    font-size: 9px;
+  }
+}

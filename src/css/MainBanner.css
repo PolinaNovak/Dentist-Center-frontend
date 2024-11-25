@@ -1,0 +1,85 @@
+.mainBannerBody {
+  background: url("./images/main-banner-background.png") no-repeat center/cover;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainBannerArrow {
+  width: 55px;
+  aspect-ratio: 1;
+  background-color: var(--color-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.mainBannerArrow .arrowRight {
+  scale: -1 1;
+}
+
+.mainBannerInfoBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  margin-inline: 212px;
+  row-gap: 13px;
+}
+
+.mainBannerInfo {
+  width: 168px;
+  height: 29px;
+  background-color: var(--color-orange);
+  text-align: center;
+  border-radius: var(--border);
+  line-height: 29px;
+}
+
+.mainBannerTitle {
+  /* display: flex;
+  flex-wrap: wrap; */
+  max-width: 559px;
+  height: 70px;
+  background-color: var(--color-base);
+  text-align: start;
+  border-radius: var(--border);
+  line-height: 70px;
+  color: var(--color-blue);
+  border-radius: var(--border);
+}
+
+.mainBannerViewButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  width: 187px;
+  height: 56px;
+  font-size: 12px;
+  line-height: 12px;
+  background-color: var(--color-blue);
+  border-radius: var(--border);
+}
+
+.mainBannerButtons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 16px;
+}
+
+.mainBannerPurchaseButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  width: 187px;
+  height: 56px;
+  font-size: 12px;
+  line-height: 12px;
+  color: var(--color-blue);
+  background-color: var(--color-base);
+  border-radius: var(--border);
+}

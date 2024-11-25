@@ -1,0 +1,62 @@
+.headBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  font-family: var(--font-family-base);
+  background-color: var(--color-blue);
+}
+
+.headContactsList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  column-gap: 40px;
+  line-height: 1.69;
+  font-weight: 400;
+}
+
+.headTimetable {
+  line-height: 1.69;
+  font-weight: 400;
+  position: relative;
+}
+
+.headContactsLink {
+  margin-left: 15px;
+}
+
+.headTimetable .quote {
+  font-size: 17px;
+  font-weight: 400;
+  padding-right: 25px;
+}
+
+.headContactsItem {
+  position: relative;
+}
+
+.headContactsItem.mail {
+  position: relative;
+}
+
+.headContactsItem.mail::before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: currentColor;
+  position: absolute;
+  right: 103%;
+  top: 65%;
+}
+
+.headContactsItem.location {
+  position: relative;
+}
+
+.headContactsItem.location::before {
+  content: ".";
+  position: absolute;
+}
