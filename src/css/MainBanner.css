@@ -1,5 +1,11 @@
-.mainBannerBody {
+.mainBannerContainer {
+  display: flex;
+  flex-direction: column;
   background: url("./images/main-banner-background.png") no-repeat center/cover;
+}
+
+.mainBannerBody {
+  width: 100%;
   height: 650px;
   display: flex;
   align-items: center;
@@ -27,6 +33,7 @@
   justify-content: space-between;
   margin-inline: 212px;
   row-gap: 13px;
+  z-index: 1;
 }
 
 .mainBannerInfo {
@@ -39,23 +46,36 @@
 }
 
 .mainBannerTitle {
-  /* display: flex;
-  flex-wrap: wrap; */
+  box-sizing: content-box;
   max-width: 559px;
-  height: 70px;
-  background-color: var(--color-base);
+  height: 184px;
   text-align: start;
   border-radius: var(--border);
-  line-height: 70px;
-  color: var(--color-blue);
+  line-height: 77px;
+  letter-spacing: -0.015em;
+  position: relative;
+  padding-left: 20px;
+}
+
+.mainBannerTitle::before {
+  content: "";
+  top: 3%;
+  left: 0;
+  width: 103%;
+  height: 70px;
+  z-index: -1;
+  aspect-ratio: 1;
+  position: absolute;
+  background-color: var(--color-base);
   border-radius: var(--border);
+  box-shadow: 0 77px 0 var(--color-base);
 }
 
 .mainBannerViewButton {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 500;
+  font-weight: 300;
   width: 187px;
   height: 56px;
   font-size: 12px;
@@ -74,7 +94,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 500;
+  font-weight: 300;
   width: 187px;
   height: 56px;
   font-size: 12px;
@@ -82,4 +102,32 @@
   color: var(--color-blue);
   background-color: var(--color-base);
   border-radius: var(--border);
+}
+
+.mainBannerPagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14px;
+  margin-block: 121px 55px;
+}
+
+.mainBannerPaginationList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.mainBannerPaginationItem {
+  border-radius: 50%;
+  height: 8px;
+  aspect-ratio: 1;
+  background-color: var(--color-orange);
+}
+
+.mainBannerPaginationItem.isCurrent {
+  height: 14px;
+  background-color: var(--color-blue);
+  aspect-ratio: 1;
 }

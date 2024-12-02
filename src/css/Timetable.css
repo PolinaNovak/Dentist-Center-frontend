@@ -1,0 +1,59 @@
+.timetableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceCardsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 150px;
+}
+
+.serviceCard {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: start;
+  flex-direction: column;
+  width: 433px;
+  height: 556px;
+}
+
+.cardImage {
+  padding-bottom: 25px;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 35px;
+  color: var(--color-blue);
+  font-family: var(--font-family-alternative);
+  padding-bottom: 7px;
+}
+
+.cardDescription {
+  color: var(--color-gray);
+  font-family: var(--font-family-alternative-2);
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.serviceButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardButton {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2.4px;
+  color: var(--color-blue);
+  font-family: var(--font-family-alternative-2);
+  padding-right: 10px;
+}

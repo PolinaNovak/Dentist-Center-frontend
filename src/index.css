@@ -190,11 +190,17 @@ body {
   --color-orange-alternative: #dd3333;
   --color-light-blue: #eef7ff;
   --color-light-orange: #fff2f2;
+  --color-gray: #8a8a8a;
 
   --container-width: 1920px;
+  --small-container-width: 1300px;
   --container-padding-x: 40px;
 
   --border: 5px;
+}
+
+.containerSmall {
+  width: var(--small-container-width);
 }
 
 .containerInner {
@@ -202,7 +208,7 @@ body {
 }
 
 .container {
-  width: var(--container-width);
+  max-width: var(--container-width);
 }
 
 .visuallyHidden {
