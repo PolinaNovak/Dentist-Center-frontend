@@ -8,7 +8,7 @@ export default function OrthodontistBanner() {
           <h2 className="orthodontistBannerAddInfo orangeTitle">
             Dental practice
           </h2>
-          <h1 className="orthodontistBannerTitle bigTitle">
+          <h1 className="orthodontistBannerTitle mediumTitle2">
             Fully dedicated to your dental health
           </h1>
           <p className="orthodontistBannerDescription">

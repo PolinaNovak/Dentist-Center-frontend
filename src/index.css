@@ -264,6 +264,14 @@ body {
   color: var(--color-orange-alternative);
 }
 
+.mediumTitle2 {
+  font-family: var(--font-family-alternative);
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 44px;
+  color: var(--color-base);
+}
+
 .bigTitle {
   font-family: var(--font-family-alternative);
   font-weight: 500;

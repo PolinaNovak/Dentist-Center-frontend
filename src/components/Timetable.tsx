@@ -76,7 +76,7 @@ export default function Timetable() {
         </div>
 
         <div className="timetableCard">
-          <h2 className="timetableTitle bigTitle">Working Hours</h2>
+          <h2 className="timetableTitle mediumTitle2">Working Hours</h2>
           <div className="timetableTime">
             <ul className="timetableTimeList">
               <li className="timetableTimeItem">

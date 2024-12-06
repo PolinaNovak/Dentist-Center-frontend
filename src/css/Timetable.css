@@ -94,8 +94,7 @@
 }
 
 .timetableTitle {
-  font-weight: 600;
-  font-size: 35px;
+  color: var(--color-blue);
   line-height: 25px;
   margin-block: 48px 18px;
 }

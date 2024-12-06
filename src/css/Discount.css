@@ -1,0 +1,57 @@
+.discountContainer {
+  background-color: var(--color-blue);
+  height: 214px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discountBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 310px;
+}
+
+.discountInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.discountTitle {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 44px;
+  color: var(--color-base);
+}
+
+.discountDecription {
+  font-size: 19px;
+  line-height: 30px;
+  color: var(--color-base);
+}
+
+.discountHighlight {
+  font-family: var(--font-family-alternative);
+  color: var(--color-orange);
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 44px;
+}
+
+.discountButton {
+  width: 198px;
+  height: 56px;
+  background-color: var(--color-base);
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2.4px;
+  color: var(--color-blue-alternative);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
