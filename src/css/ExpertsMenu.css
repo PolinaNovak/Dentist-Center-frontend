@@ -1,0 +1,60 @@
+.expertsMenuBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 143px 147px;
+}
+
+.expertsMenuInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.expertsMenuList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 50px;
+}
+
+.expertsMenudescription {
+  max-width: 815px;
+}
+
+.expertsMenuTitle {
+  padding-bottom: 23px;
+}
+
+.expertsMenudescription {
+  margin-bottom: 72px;
+}
+
+.expertsMenuItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.expertsMenuItemImage {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.expertsMenuItemImage:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  aspect-ratio: 1;
+  background: url("./icons/socials-icon.png") center/cover no-repeat;
+  top: 17px;
+  left: -17px;
+  border-radius: 4px;
+}
+
+.expertsMenuItemName {
+  margin-bottom: 1px;
+}

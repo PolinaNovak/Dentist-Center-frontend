@@ -14,7 +14,9 @@ export default function Services() {
             loading="lazy"
           />
           <div className="servicesInfo">
-            <h2 className="servicesTitle">Root Canal Specialist</h2>
+            <h2 className="servicesTitle smallBlueText">
+              Root Canal Specialist
+            </h2>
             <p className="servicesDescription smallText">
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
@@ -31,7 +33,9 @@ export default function Services() {
             loading="lazy"
           />
           <div className="servicesInfo">
-            <h2 className="servicesTitle">Alignment Specialist</h2>
+            <h2 className="servicesTitle smallBlueText">
+              Alignment Specialist
+            </h2>
             <p className="servicesDescription smallText">
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
@@ -48,7 +52,7 @@ export default function Services() {
             loading="lazy"
           />
           <div className="servicesInfo">
-            <h2 className="servicesTitle">Cosmetic Dentistry</h2>
+            <h2 className="servicesTitle smallBlueText">Cosmetic Dentistry</h2>
             <p className="servicesDescription smallText">
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
@@ -65,7 +69,9 @@ export default function Services() {
             loading="lazy"
           />
           <div className="servicesInfo">
-            <h2 className="servicesTitle">Oral Hygiene Experts</h2>
+            <h2 className="servicesTitle smallBlueText">
+              Oral Hygiene Experts
+            </h2>
             <p className="servicesDescription smallText">
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>

@@ -1,0 +1,65 @@
+.RequestBannerContainer {
+  max-height: 715px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.requestBannerBody {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.requestBannerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  flex-grow: 1;
+  height: 715px;
+  padding: 133px 153px 140px 112px;
+}
+
+.requestBannerTitle {
+  font-size: 35px;
+  line-height: 44px;
+}
+
+.requestBannerDescription {
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: var(----color-gray-alternative);
+  margin-bottom: 41px;
+}
+
+.requestBannerForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.requestBannerFormInput {
+  border: 1px solid #dce6f5;
+}
+
+.requestBannerFormInput.wide {
+  grid-column: 1/3;
+}
+
+.requestBannerButton {
+  width: 214px;
+  height: 56px;
+  font-weight: 300;
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2.4px;
+  color: var(--color-base);
+  background-color: var(--color-blue);
+  border-radius: 5px;
+}

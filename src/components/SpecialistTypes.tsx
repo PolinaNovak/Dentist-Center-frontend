@@ -5,19 +5,19 @@ export default function SpecialistTypes() {
     <section className="specialistTypesContainer container">
       <div className="specialistTypesBody containerSmall">
         <ul className="specialistTypesList">
-          <li className="specialistTypesItem mediumTitle2 isCurrent">
+          <li className="specialistTypesItem smallBlueText isCurrent">
             Root Canal Specialist
           </li>
 
-          <li className="specialistTypesItem mediumTitle2">
+          <li className="specialistTypesItem smallBlueText">
             Alignment Specialist
           </li>
 
-          <li className="specialistTypesItem mediumTitle2">
+          <li className="specialistTypesItem smallBlueText">
             Cosmetica Dentistry
           </li>
 
-          <li className="specialistTypesItem mediumTitle2">
+          <li className="specialistTypesItem smallBlueText">
             Live Dental Advisory
           </li>
         </ul>

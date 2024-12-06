@@ -31,12 +31,6 @@
 }
 
 .specialistTypesItem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 15px;
-  line-height: 49px;
-  color: var(--color-blue-alternative);
   border-bottom: 1px solid #ffe1e1;
 }
 

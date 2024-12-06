@@ -19,8 +19,10 @@ export default function PeopleOpinions() {
               <h2 className="PeopleOpinionsDopInfo orangeTitle">
                 Our dear clients
               </h2>
-              <h1 className="PeopleOpinionsTitle bigTitle">What People Say</h1>
-              <p className="PeopleOpinionsDescription smallText">
+              <h1 className="PeopleOpinionsTitle blueMediumTitle">
+                What People Say
+              </h1>
+              <p className="PeopleOpinionsDescription mediumDescription">
                 In sea viderer delicatissimi, urbanitas sententiae quo blandit
                 maiorum euripidis.
               </p>

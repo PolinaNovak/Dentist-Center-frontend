@@ -24,14 +24,6 @@
   justify-content: space-between;
 }
 
-.servicesTitle {
-  font-family: var(--font-family-alternative);
-  font-weight: 600;
-  font-size: 19px;
-  line-height: 25px;
-  color: var(--color-blue-alternative);
-}
-
 .servicesItemImage {
   margin-right: 28px;
 }
