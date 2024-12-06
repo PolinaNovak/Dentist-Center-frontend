@@ -1,0 +1,100 @@
+.PeopleOpinionsBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 186px;
+}
+
+.PeopleOpinionsInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 83px;
+}
+
+.PeopleOpinionsTitle {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 60px;
+}
+
+.PeopleOpinionsDescription {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.PeopleOpinionsFeedback {
+  margin-inline: 113px;
+}
+
+.PeopleOpinionsFeedbackBody {
+  margin-bottom: 58px;
+}
+.PeopleOpinionsList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 80px;
+}
+
+.PeopleOpinionsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.PeopleOpinionsImage {
+  margin-bottom: 33px;
+}
+
+.PeopleOpinionsItemTitle {
+  font-family: var() --font-family-alternative;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 35px;
+  color: var(--color-blue);
+  margin-bottom: 7px;
+}
+
+.PeopleOpinionsItemDescription {
+  margin-bottom: 30px;
+}
+
+.PeopleOpinionsImage {
+  position: relative;
+}
+
+.PeopleOpinionsPagination {
+  max-height: 25px;
+}
+
+.PeopleOpinionsPagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14px;
+  margin-bottom: 140px;
+}
+
+.PeopleOpinionsPaginationList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.PeopleOpinionsPaginationItem {
+  border-radius: 50%;
+  height: 8px;
+  aspect-ratio: 1;
+  background-color: var(--color-orange);
+}
+
+.PeopleOpinionsPaginationItem.isCurrent {
+  height: 14px;
+  background-color: var(--color-light-blue);
+  aspect-ratio: 1;
+}

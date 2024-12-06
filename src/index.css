@@ -227,8 +227,10 @@ body {
 
 .smallText {
   font-family: var(--font-family-base);
-  font-weight: 600;
-  font-size: 13px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--color-gray);
 }
 
 .uppercase {
@@ -252,9 +254,23 @@ body {
   color: var(--color-base);
 }
 
+.orangeTitle {
+  font-family: var(--font-family-base);
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 1.69px;
+  color: var(--color-orange-alternative);
+}
+
 .bigTitle {
   font-family: var(--font-family-alternative);
   font-weight: 500;
   font-size: 65px;
   color: var(--color-blue);
+}
+
+.arrowRight {
+  scale: -1 1;
 }

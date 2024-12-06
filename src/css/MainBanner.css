@@ -22,10 +22,6 @@
   border-radius: 4px;
 }
 
-.mainBannerArrow .arrowRight {
-  scale: -1 1;
-}
-
 .mainBannerInfoBlock {
   display: flex;
   flex-direction: column;

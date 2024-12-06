@@ -3,19 +3,17 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--color-light-blue);
+  margin-bottom: 143px;
 }
 
 .orthodontistBannerInfo {
   display: flex;
   flex-direction: column;
   margin: 156px 150px 162px 234px;
+  max-width: 517px;
 }
 
 .orthodontistBannerAddInfo {
-  color: var(--color-orange-alternative);
-  letter-spacing: 1.69px;
-  line-height: 25px;
-  font-weight: 600;
   margin-bottom: 3px;
 }
 
@@ -59,6 +57,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .orthodontistBannerButton {

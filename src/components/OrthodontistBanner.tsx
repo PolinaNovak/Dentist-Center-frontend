@@ -5,7 +5,7 @@ export default function OrthodontistBanner() {
     <section className="orthodontistBannerContainer container">
       <div className="orthodontistBannerBody">
         <div className="orthodontistBannerInfo">
-          <h2 className="orthodontistBannerAddInfo mediumTitle">
+          <h2 className="orthodontistBannerAddInfo orangeTitle">
             Dental practice
           </h2>
           <h1 className="orthodontistBannerTitle bigTitle">

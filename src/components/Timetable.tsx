@@ -17,7 +17,7 @@ export default function Timetable() {
           <h2 className="cardTitle">
             Pick the dentist that fits all your needs the best
           </h2>
-          <div className="cardDescription">
+          <div className="cardDescription smallText">
             <p>
               Lorem ipsum dolor sit amet, eu duo ferri labor. Mea ex modo reque
               senserit, et sed hinc dolor, scaevola sum salutandi expetendis vix
@@ -48,7 +48,7 @@ export default function Timetable() {
               loading="lazy"
             />
           </div>
-          <div className="cardDescription">
+          <div className="cardDescription smallText">
             <ul className="cardDescriptionList">
               <li className="cardDescriptionItem">
                 Professional dental services 24/7

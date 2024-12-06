@@ -32,14 +32,6 @@
   color: var(--color-blue-alternative);
 }
 
-.servicesDescription {
-  font-family: var(--font-family-base);
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
-  color: var(--color-gray);
-}
-
 .servicesItemImage {
   margin-right: 28px;
 }

@@ -15,7 +15,7 @@ export default function Services() {
           />
           <div className="servicesInfo">
             <h2 className="servicesTitle">Root Canal Specialist</h2>
-            <p className="servicesDescription">
+            <p className="servicesDescription smallText">
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
@@ -32,7 +32,7 @@ export default function Services() {
           />
           <div className="servicesInfo">
             <h2 className="servicesTitle">Alignment Specialist</h2>
-            <p className="servicesDescription">
+            <p className="servicesDescription smallText">
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
@@ -49,7 +49,7 @@ export default function Services() {
           />
           <div className="servicesInfo">
             <h2 className="servicesTitle">Cosmetic Dentistry</h2>
-            <p className="servicesDescription">
+            <p className="servicesDescription smallText">
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
@@ -66,7 +66,7 @@ export default function Services() {
           />
           <div className="servicesInfo">
             <h2 className="servicesTitle">Oral Hygiene Experts</h2>
-            <p className="servicesDescription">
+            <p className="servicesDescription smallText">
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
@@ -83,7 +83,7 @@ export default function Services() {
           />
           <div className="servicesInfo">
             <h2 className="servicesTitle">Live Dental Advisory</h2>
-            <p className="servicesDescription">
+            <p className="servicesDescription smallText">
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
@@ -100,7 +100,7 @@ export default function Services() {
           />
           <div className="servicesInfo">
             <h2 className="servicesTitle">Cavity Inspection</h2>
-            <p className="servicesDescription">
+            <p className="servicesDescription smallText">
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
