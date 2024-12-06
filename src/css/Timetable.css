@@ -57,3 +57,99 @@
   font-family: var(--font-family-alternative-2);
   padding-right: 10px;
 }
+
+.cardDescriptionList {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardDescriptionItem {
+  margin-left: 30px;
+  position: relative;
+  font: var(--font-family-base);
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.cardDescriptionItem::before {
+  content: "";
+  background: url(./icons/plus-icon.png) no-repeat center/cover;
+  position: absolute;
+  height: 11px;
+  width: 30px;
+  left: -30px;
+  top: 50%;
+  translate: 0 -50%;
+}
+
+.cardDescriptionItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.timetableCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 413px;
+  height: 556px;
+  background-color: var(--color-light-orange);
+  border-radius: 5px;
+}
+
+.timetableTitle {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 25px;
+  margin-block: 48px 18px;
+}
+
+.timetableTime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.timetableTimeItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #656565;
+}
+
+.timetableTimeItem:not(:last-child) {
+  margin-bottom: 19px;
+}
+
+.timetableContacts {
+  background-color: var(--color-blue-alternative);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-base);
+  font-family: var(--font-family-alternative);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.itemDottedStroke {
+  flex-grow: 1;
+  border-bottom: 1px dashed var(--color-orange-alternative);
+  opacity: 0.6;
+  margin: 6px 10px;
+  align-self: flex-end;
+}
+
+.timetableTimeList {
+  width: 100%;
+  margin-inline: 40px;
+}

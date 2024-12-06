@@ -1,0 +1,45 @@
+.servicesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 265px;
+  margin-bottom: 142px;
+}
+
+.servicesList {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 75px;
+  column-gap: 45px;
+}
+
+.servicesListItem {
+  display: flex;
+}
+
+.servicesInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.servicesTitle {
+  font-family: var(--font-family-alternative);
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 25px;
+  color: var(--color-blue-alternative);
+}
+
+.servicesDescription {
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--color-gray);
+}
+
+.servicesItemImage {
+  margin-right: 28px;
+}

@@ -73,46 +73,43 @@ export default function Timetable() {
               </li>
             </ul>
           </div>
-          <button className="cardButton" type="button">
-            Read more
-          </button>
         </div>
 
         <div className="timetableCard">
-          <h2 className="timetableTitle">Working Hours</h2>
+          <h2 className="timetableTitle bigTitle">Working Hours</h2>
           <div className="timetableTime">
             <ul className="timetableTimeList">
               <li className="timetableTimeItem">
-                Monday <span className="itemDottedStroke">______</span>
+                Monday <span className="itemDottedStroke"></span>
                 <time dateTime="8:00/19:00">8AM-7PM</time>
               </li>
               <li className="timetableTimeItem">
-                Tuesday <span className="itemDottedStroke">______</span>
+                Tuesday <span className="itemDottedStroke"></span>
                 <time dateTime="8:00/19:00">8AM-7PM</time>
               </li>
               <li className="timetableTimeItem">
-                Wednesday <span className="itemDottedStroke">______</span>
+                Wednesday <span className="itemDottedStroke"></span>
                 <time dateTime="8:00/19:00">8AM-7PM</time>
               </li>
               <li className="timetableTimeItem">
-                Thursday <span className="itemDottedStroke">______</span>
+                Thursday <span className="itemDottedStroke"></span>
                 <time dateTime="8:00/19:00">8AM-7PM</time>
               </li>
               <li className="timetableTimeItem">
-                Friday <span className="itemDottedStroke">______</span>
+                Friday <span className="itemDottedStroke"></span>
                 <time dateTime="8:00/19:00">8AM-7PM</time>
               </li>
               <li className="timetableTimeItem">
-                Saturday <span className="itemDottedStroke">______</span>
+                Saturday <span className="itemDottedStroke"></span>
                 <time dateTime="8:00/19:00">8AM-7PM</time>
               </li>
               <li className="timetableTimeItem">
-                Sunday <span className="itemDottedStroke">______</span>
+                Sunday <span className="itemDottedStroke"></span>
                 <span className="uppercase">closed</span>
               </li>
             </ul>
           </div>
-          <a className="tietableContacts" href="tel:+354/759-1675">
+          <a className="timetableContacts" href="tel:+354/759-1675">
             Call Us: +354/759-1675
           </a>
         </div>

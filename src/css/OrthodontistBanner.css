@@ -1,0 +1,86 @@
+.orthodontistBannerBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-light-blue);
+}
+
+.orthodontistBannerInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 156px 150px 162px 234px;
+}
+
+.orthodontistBannerAddInfo {
+  color: var(--color-orange-alternative);
+  letter-spacing: 1.69px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.orthodontistBannerTitle {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 47px;
+  margin-bottom: 11px;
+}
+
+.orthodontistBannerDescription {
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--color-gray-alternative);
+  margin-bottom: 33px;
+}
+
+.orthodontistBannerSignature {
+  position: relative;
+  font-family: var(--font-family-alternative);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+  color: var(--color-orange);
+}
+
+.orthodontistBannerSignature:before {
+  content: "";
+  position: absolute;
+  width: 532px;
+  height: 111px;
+  background: url("./images/signature.png") center/cover no-repeat;
+  top: 100%;
+  left: 53%;
+  translate: -50% -50%;
+}
+
+.orthodontistBannerVideoWrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.orthodontistBannerButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 90px;
+  aspect-ratio: 1;
+  border: 1px solid white;
+  border-radius: 90px;
+}
+
+.orthodontistBannerButton:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 72px;
+  aspect-ratio: 1;
+  background: url("./icons/play-icon.svg") 55% no-repeat;
+  background-color: white;
+  border-radius: 90px;
+}
