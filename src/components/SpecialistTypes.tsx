@@ -2,8 +2,8 @@ import "../css/SpecialistTypes.css";
 
 export default function SpecialistTypes() {
   return (
-    <section className="specialistTypesContainer container">
-      <div className="specialistTypesBody containerSmall">
+    <section className="specialistTypesContainer">
+      <div className="specialistTypesBody">
         <ul className="specialistTypesList">
           <li className="specialistTypesItem smallBlueText isCurrent">
             Root Canal Specialist

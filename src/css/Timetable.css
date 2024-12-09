@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   padding-block: 150px;
+  column-gap: 20px;
 }
 
 .serviceCard {
@@ -16,7 +17,7 @@
   /* justify-content: space-between; */
   align-items: start;
   flex-direction: column;
-  width: 433px;
+  width: 413px;
   height: 556px;
 }
 
@@ -147,4 +148,14 @@
 .timetableTimeList {
   width: 100%;
   margin-inline: 40px;
+}
+
+.cardButton:hover,
+.timetableContacts:hover {
+  color: var(--color-orange);
+  transition-duration: var(--transition-duration);
+}
+
+.timetableContacts:hover {
+  background-color: var(--color-light-blue);
 }

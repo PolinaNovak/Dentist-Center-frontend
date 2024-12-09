@@ -37,6 +37,17 @@
 
 .PeopleOpinionsImage {
   margin-bottom: 33px;
+  position: relative;
+}
+
+.PeopleOpinionsImage:after {
+  content: "";
+  position: absolute;
+  height: 36px;
+  aspect-ratio: 1;
+  top: 0;
+  left: 75%;
+  background: url("./icons/score-icon.png") center/cover no-repeat;
 }
 
 .PeopleOpinionsItemTitle {
@@ -50,10 +61,6 @@
 
 .PeopleOpinionsItemDescription {
   margin-bottom: 30px;
-}
-
-.PeopleOpinionsImage {
-  position: relative;
 }
 
 .PeopleOpinionsPagination {

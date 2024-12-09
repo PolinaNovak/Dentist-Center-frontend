@@ -30,14 +30,15 @@ export default function PeopleOpinions() {
 
             <ul className="PeopleOpinionsList containerSmall">
               <li className="PeopleOpinionsItem">
-                <img
-                  className="PeopleOpinionsImage"
-                  width="140"
-                  height="140"
-                  src="./images/smiling-woman-avatar.png"
-                  alt="Smiling woman"
-                  loading="lazy"
-                />
+                <div className="PeopleOpinionsImage">
+                  <img
+                    width="140"
+                    height="140"
+                    src="./images/smiling-woman-avatar.png"
+                    alt="Smiling woman"
+                    loading="lazy"
+                  />
+                </div>
 
                 <div className="PeopleOpinionsItemInfo">
                   <h3 className="PeopleOpinionsItemTitle">
@@ -55,14 +56,15 @@ export default function PeopleOpinions() {
               </li>
 
               <li className="PeopleOpinionsItem">
-                <img
-                  className="PeopleOpinionsImage"
-                  width="140"
-                  height="140"
-                  src="./images/man-glasses-avatar.png"
-                  alt="White man"
-                  loading="lazy"
-                />
+                <div className="PeopleOpinionsImage">
+                  <img
+                    width="140"
+                    height="140"
+                    src="./images/man-glasses-avatar.png"
+                    alt="White man"
+                    loading="lazy"
+                  />
+                </div>
 
                 <div className="PeopleOpinionsItemInfo">
                   <h3 className="PeopleOpinionsItemTitle">
@@ -80,14 +82,16 @@ export default function PeopleOpinions() {
               </li>
 
               <li className="PeopleOpinionsItem">
-                <img
-                  className="PeopleOpinionsImage"
-                  width="140"
-                  height="140"
-                  src="./images/black-man-avatar.png"
-                  alt="Black man"
-                  loading="lazy"
-                />
+                <div className="PeopleOpinionsImage">
+                  <img
+                    className="PeopleOpinionsImage"
+                    width="140"
+                    height="140"
+                    src="./images/black-man-avatar.png"
+                    alt="Black man"
+                    loading="lazy"
+                  />
+                </div>
 
                 <div className="PeopleOpinionsItemInfo">
                   <h3 className="PeopleOpinionsItemTitle">

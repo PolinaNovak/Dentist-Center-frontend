@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 143px;
+  /* margin-bottom: 143px; */
 }
 
 .requestBannerBody {
@@ -68,4 +68,10 @@
 
 .requestBannerImage {
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.requestBannerButton:hover {
+  color: var(--color-orange);
+  background-color: var(--color-base);
+  transition-duration: var(--transition-duration);
 }

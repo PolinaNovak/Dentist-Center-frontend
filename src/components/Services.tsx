@@ -3,8 +3,8 @@ import "../css/Services.css";
 export default function Services() {
   return (
     <section className="servicesContainer">
-      <li className="servicesList containerSmall">
-        <ul className="servicesListItem">
+      <ul className="servicesList containerSmall">
+        <li className="servicesListItem">
           <img
             className="servicesItemImage"
             width="97"
@@ -21,9 +21,9 @@ export default function Services() {
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
-        </ul>
+        </li>
 
-        <ul className="servicesListItem">
+        <li className="servicesListItem">
           <img
             className="servicesItemImage"
             width="97"
@@ -40,9 +40,9 @@ export default function Services() {
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
-        </ul>
+        </li>
 
-        <ul className="servicesListItem">
+        <li className="servicesListItem">
           <img
             className="servicesItemImage"
             width="97"
@@ -57,9 +57,9 @@ export default function Services() {
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
-        </ul>
+        </li>
 
-        <ul className="servicesListItem">
+        <li className="servicesListItem">
           <img
             className="servicesItemImage"
             width="97"
@@ -76,9 +76,9 @@ export default function Services() {
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
-        </ul>
+        </li>
 
-        <ul className="servicesListItem">
+        <li className="servicesListItem">
           <img
             className="servicesItemImage"
             width="97"
@@ -93,9 +93,9 @@ export default function Services() {
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
-        </ul>
+        </li>
 
-        <ul className="servicesListItem">
+        <li className="servicesListItem">
           <img
             className="servicesItemImage"
             width="97"
@@ -110,8 +110,8 @@ export default function Services() {
               Vix nibh iudicabit necessitus et, quam inermis voluptatus.
             </p>
           </div>
-        </ul>
-      </li>
+        </li>
+      </ul>
     </section>
   );
 }

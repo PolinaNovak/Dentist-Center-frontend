@@ -25,9 +25,9 @@ export default function Timetable() {
             </p>
           </div>
           <div className="serviceButton">
-            <button className="cardButton  uppercase" type="button">
+            <a href="/" className="cardButton  uppercase" type="button">
               Read more
-            </button>
+            </a>
             <img
               width="35"
               height="35"

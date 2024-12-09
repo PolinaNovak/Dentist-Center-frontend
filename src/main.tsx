@@ -33,9 +33,7 @@ createRoot(document.getElementById("root")!).render(
       <OrthodontistBanner />
       <PeopleOpinions />
       <Discount />
-      <ContainerSmall>
-        <SpecialistTypes />
-      </ContainerSmall>
+      <SpecialistTypes />
       <ExpertsMenu />
       <RequestBanner />
       <ContainerSmall>

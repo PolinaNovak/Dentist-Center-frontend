@@ -1,13 +1,14 @@
 .footerContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 230px;
   background-color: var(--color-light-orange);
-  margin-bottom: 586px;
+  /* margin-bottom: 586px; */
 }
 
 .footerBody {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

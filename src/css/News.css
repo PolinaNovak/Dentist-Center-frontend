@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 145px;
 }
 
 .newsBody {
@@ -70,4 +69,9 @@
   top: 50%;
   translate: -50% -50%;
   background: url(./icons/button-icon.png) center/cover no-repeat;
+}
+
+.newsItemButton:hover {
+  color: var(--color-orange);
+  transition-duration: var(--transition-duration);
 }
