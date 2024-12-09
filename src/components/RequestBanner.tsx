@@ -25,7 +25,7 @@ export default function RequestBanner() {
               First Name
             </label>
             <input
-              className="requestBannerFormInput"
+              className="requestBannerFormInput smallText"
               id="firstName"
               placeholder="First Name"
             ></input>
@@ -34,7 +34,7 @@ export default function RequestBanner() {
               Last Name
             </label>
             <input
-              className="requestBannerFormInput"
+              className="requestBannerFormInput smallText"
               id="lastName"
               placeholder="Last Name"
             ></input>
@@ -43,7 +43,7 @@ export default function RequestBanner() {
               E-Mail Address
             </label>
             <input
-              className="requestBannerFormInput"
+              className="requestBannerFormInput smallText"
               id="email"
               placeholder="E-Mail Address"
             ></input>
@@ -52,14 +52,14 @@ export default function RequestBanner() {
               Phone Number
             </label>
             <input
-              className="requestBannerFormInput"
+              className="requestBannerFormInput smallText"
               id="phone"
               placeholder="Phone Number"
             ></input>
 
             <label className="visuallyHidden" htmlFor="comment"></label>
             <textarea
-              className="requestBannerFormInput wide"
+              className="requestBannerFormInput wide smallText"
               id="comment"
             ></textarea>
           </div>

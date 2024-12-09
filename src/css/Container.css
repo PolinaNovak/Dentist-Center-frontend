@@ -1,0 +1,7 @@
+.container {
+  max-width: var(--container-width);
+  display: flex; /* Для центровки элементов внутри */
+  flex-direction: column; /* Вертикальное размещение элементов */
+  align-items: center;
+  margin-bottom: 150px;
+}

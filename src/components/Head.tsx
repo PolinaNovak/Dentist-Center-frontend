@@ -2,8 +2,8 @@ import "../css/Head.css";
 
 export default function Head() {
   return (
-    <section className="headContainer">
-      <div className="headBody containerInner">
+    <header className="headContainer">
+      <div className="headBody">
         <div className="headLeftSide">
           <span className="headTimetable smallText">
             <span className="quote">&#125;</span>
@@ -52,6 +52,6 @@ export default function Head() {
           </ul>
         </div>
       </div>
-    </section>
+    </header>
   );
 }

@@ -1,0 +1,22 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 230px;
+  background-color: var(--color-light-orange);
+  margin-bottom: 586px;
+}
+
+.footerBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 93px;
+}
+
+.footerClinicsList {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  column-gap: 186px;
+}

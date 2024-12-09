@@ -1,8 +1,10 @@
 .navBarContainer {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   height: 100px;
-  max-width: 1920px;
+  width: 100%;
+  padding-inline: var(--container-padding-x);
 }
 
 .navBarBody {
@@ -82,13 +84,8 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 1056px) {
-  .navBarMenu {
-    flex-basis: 100%;
-    order: 1;
-  }
-
-  .navBarBody {
-    font-size: 9px;
-  }
+.navBarMenuLink:hover,
+.navBarSearchButton:hover {
+  color: var(--color-orange);
+  transition-duration: var(--transition-duration);
 }

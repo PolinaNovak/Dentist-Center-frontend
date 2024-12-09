@@ -3,7 +3,7 @@ import "../css/NavBar.css";
 export default function NavBar() {
   return (
     <section className="navBarContainer">
-      <div className="navBarBody containerInner">
+      <div className="navBarBody">
         <div className="navBarLogo">
           <img
             src="./icons/logo.png"
@@ -51,9 +51,9 @@ export default function NavBar() {
         </div>
 
         <div className="navBarSearch">
-          <button className="navBarSearchButton button" type="button">
+          <a href="/" className="navBarSearchButton button" type="button">
             Search
-          </button>
+          </a>
           <button
             className="navBarOptionButton"
             type="button"

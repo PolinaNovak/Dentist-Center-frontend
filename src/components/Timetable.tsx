@@ -3,7 +3,7 @@ import "../css/Timetable.css";
 export default function Timetable() {
   return (
     <section className="timetableContainer">
-      <div className="serviceCardsContainer containerSmall">
+      <div className="serviceCardsContainer">
         <div className="serviceCard">
           <div className="cardImage">
             <img

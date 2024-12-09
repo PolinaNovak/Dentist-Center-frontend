@@ -2,8 +2,8 @@ import "../css/MainBanner.css";
 
 export default function MainBanner() {
   return (
-    <section className="mainBannerContainer container">
-      <div className="mainBannerBody containerInner">
+    <section className="mainBannerContainer">
+      <div className="mainBannerBody">
         <div className="mainBannerArrow">
           <img
             className="arrowLeft"

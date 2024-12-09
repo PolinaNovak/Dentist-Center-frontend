@@ -1,3 +1,7 @@
+.headContainer {
+  width: 100%;
+}
+
 .headBody {
   display: flex;
   justify-content: space-between;
@@ -5,6 +9,7 @@
   height: 40px;
   font-family: var(--font-family-base);
   background-color: var(--color-blue);
+  padding-inline: var(--container-padding-x);
 }
 
 .headContactsList {
@@ -15,12 +20,18 @@
   column-gap: 40px;
   line-height: 1.69;
   font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--color-base);
 }
 
 .headTimetable {
   line-height: 1.69;
   font-weight: 400;
   position: relative;
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--color-base);
 }
 
 .headContactsLink {
@@ -54,9 +65,25 @@
 
 .headContactsItem.location {
   position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  column-gap: 19px;
 }
 
 .headContactsItem.location::before {
   content: ".";
   position: absolute;
+  top: 35%;
+  left: -7%;
+  translate: -50% -50%;
+}
+
+.headContactsItem a {
+  color: var(--color-base);
+}
+
+.headContactsLink:hover {
+  color: var(--color-gray);
+  transition-duration: var(--transition-duration);
 }
